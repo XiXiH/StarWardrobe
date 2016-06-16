@@ -1,0 +1,33 @@
+//
+//  HeaderFile.pch
+//  StarWardrobe
+//
+//  Created by Mac on 16/6/7.
+//  Copyright © 2016年 CYY. All rights reserved.
+//
+
+#ifndef HeaderFile_pch
+#define HeaderFile_pch
+#import "NavigationController.h"
+#import "TabBarController.h"
+#import "HomeVC.h"
+#import "MatchVC.h"
+#import "CommunityVC.h"
+#import "ShoppingCarVC.h"
+#import "MyVC.h"
+
+
+
+
+
+#define Width   [UIScreen mainScreen].bounds.size.width
+#define Height  [UIScreen mainScreen].bounds.size.height
+
+#define RGBColor(R,G,B)  [UIColor colorWithRed:(R)/255.0 green:(G)/255.0 blue:(B)/255.0 alpha:1.0]
+#define MColor RGBColor(255, 49, 122)
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* HeaderFile_pch */

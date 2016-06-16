@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0171bfa4-8258-4b54-9dc4-1e92d8456152++6908",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "0171bfa4-8258-4b54-9dc4-1e92d8456152++6908" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0171bfa4-8258-4b54-9dc4-1e92d8456152++6908" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3FBEB7EF-1C51-4E94-B60C-82DE2F384945",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0171bfa4-8258-4b54-9dc4-1e92d8456152++6908" : "StarWardrobe\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "StarWardrobe",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "StarWardrobe.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.1.125\/respository",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0171bfa4-8258-4b54-9dc4-1e92d8456152++6908"
+    }
+  ]
+}

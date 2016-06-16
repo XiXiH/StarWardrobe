@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C5114E31D06CDAE007BBA8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5114E21D06CDAE007BBA8C /* main.m */; };
+		0C5114EC1D06CDAE007BBA8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5114EA1D06CDAE007BBA8C /* Main.storyboard */; };
+		0C5114EE1D06CDAE007BBA8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5114ED1D06CDAE007BBA8C /* Assets.xcassets */; };
+		0C5114F11D06CDAE007BBA8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5114EF1D06CDAE007BBA8C /* LaunchScreen.storyboard */; };
+		0C5115111D06CFB7007BBA8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C51150A1D06CFB7007BBA8C /* AppDelegate.m */; };
+		0C5115121D06CFB7007BBA8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C51150C1D06CFB7007BBA8C /* ViewController.m */; };
+		0C8103341D06E8EB00AAB250 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8103331D06E8EB00AAB250 /* NavigationController.m */; };
+		0C8103371D06E91600AAB250 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8103361D06E91600AAB250 /* TabBarController.m */; };
+		0C81033A1D06EAE200AAB250 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8103391D06EAE200AAB250 /* HomeVC.m */; };
+		0C8103401D06EB0D00AAB250 /* CommunityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C81033F1D06EB0D00AAB250 /* CommunityVC.m */; };
+		0C8103431D06EB2000AAB250 /* ShoppingCarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8103421D06EB2000AAB250 /* ShoppingCarVC.m */; };
+		0C8103461D06EB3100AAB250 /* MyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8103451D06EB3100AAB250 /* MyVC.m */; };
+		98C3FF1EFBE83C04106A799D /* libPods-StarWardrobe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DAA178752F5D5C0CB50A828 /* libPods-StarWardrobe.a */; };
+		EF37FC6A1D07E3F0004C5FED /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF37FC691D07E3F0004C5FED /* BaseViewController.m */; };
+		EF37FC6E1D07ECAA004C5FED /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF37FC6D1D07ECAA004C5FED /* BaseTableViewCell.m */; };
+		EF37FC721D0806C7004C5FED /* MCNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EF37FC711D0806C7004C5FED /* MCNavigationBar.m */; };
+		EFD3B3CD1D071C37007E5D82 /* MatchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3B3CB1D071C37007E5D82 /* MatchVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C5114DE1D06CDAE007BBA8C /* StarWardrobe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWardrobe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C5114E21D06CDAE007BBA8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C5114EB1D06CDAE007BBA8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C5114ED1D06CDAE007BBA8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C5114F01D06CDAE007BBA8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C5114F21D06CDAE007BBA8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C5115091D06CFB7007BBA8C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C51150A1D06CFB7007BBA8C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C51150B1D06CFB7007BBA8C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C51150C1D06CFB7007BBA8C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C8103301D06E75900AAB250 /* HeaderFile.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderFile.pch; sourceTree = "<group>"; };
+		0C8103321D06E8EB00AAB250 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		0C8103331D06E8EB00AAB250 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		0C8103351D06E91600AAB250 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		0C8103361D06E91600AAB250 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		0C8103381D06EAE200AAB250 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		0C8103391D06EAE200AAB250 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		0C81033E1D06EB0D00AAB250 /* CommunityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityVC.h; sourceTree = "<group>"; };
+		0C81033F1D06EB0D00AAB250 /* CommunityVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityVC.m; sourceTree = "<group>"; };
+		0C8103411D06EB2000AAB250 /* ShoppingCarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCarVC.h; sourceTree = "<group>"; };
+		0C8103421D06EB2000AAB250 /* ShoppingCarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCarVC.m; sourceTree = "<group>"; };
+		0C8103441D06EB3100AAB250 /* MyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyVC.h; sourceTree = "<group>"; };
+		0C8103451D06EB3100AAB250 /* MyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyVC.m; sourceTree = "<group>"; };
+		0DAA178752F5D5C0CB50A828 /* libPods-StarWardrobe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StarWardrobe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13BA3CD11225CBDD5D9B46EC /* Pods-StarWardrobe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWardrobe.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarWardrobe/Pods-StarWardrobe.release.xcconfig"; sourceTree = "<group>"; };
+		EF1002502E863A5C2368A13D /* Pods-StarWardrobe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWardrobe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarWardrobe/Pods-StarWardrobe.debug.xcconfig"; sourceTree = "<group>"; };
+		EF37FC681D07E3F0004C5FED /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		EF37FC691D07E3F0004C5FED /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		EF37FC6C1D07ECAA004C5FED /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		EF37FC6D1D07ECAA004C5FED /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		EF37FC701D0806C7004C5FED /* MCNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNavigationBar.h; sourceTree = "<group>"; };
+		EF37FC711D0806C7004C5FED /* MCNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCNavigationBar.m; sourceTree = "<group>"; };
+		EFD3B3CA1D071C37007E5D82 /* MatchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchVC.h; sourceTree = "<group>"; };
+		EFD3B3CB1D071C37007E5D82 /* MatchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C5114DB1D06CDAE007BBA8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C3FF1EFBE83C04106A799D /* libPods-StarWardrobe.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C5114D51D06CDAE007BBA8C = {
+			isa = PBXGroup;
+			children = (
+				0C5114E01D06CDAE007BBA8C /* StarWardrobe */,
+				0C5114DF1D06CDAE007BBA8C /* Products */,
+				DEEFA5307C3821D967900480 /* Pods */,
+				810CC9BBD8DB2C60C90D459D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0C5114DF1D06CDAE007BBA8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C5114DE1D06CDAE007BBA8C /* StarWardrobe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C5114E01D06CDAE007BBA8C /* StarWardrobe */ = {
+			isa = PBXGroup;
+			children = (
+				0C5115081D06CFB7007BBA8C /* Other */,
+				0C5114FC1D06CFB7007BBA8C /* HomePage */,
+				0C5115001D06CFB7007BBA8C /* MatchPage */,
+				0C5114F81D06CFB7007BBA8C /* CommunityPage */,
+				0C51150D1D06CFB7007BBA8C /* ShoppingCar */,
+				0C5115041D06CFB7007BBA8C /* MyPage */,
+				0C5114EA1D06CDAE007BBA8C /* Main.storyboard */,
+				0C8103301D06E75900AAB250 /* HeaderFile.pch */,
+				0C5114ED1D06CDAE007BBA8C /* Assets.xcassets */,
+				0C5114EF1D06CDAE007BBA8C /* LaunchScreen.storyboard */,
+				0C5114F21D06CDAE007BBA8C /* Info.plist */,
+				0C5114E11D06CDAE007BBA8C /* Supporting Files */,
+			);
+			path = StarWardrobe;
+			sourceTree = "<group>";
+		};
+		0C5114E11D06CDAE007BBA8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C5114E21D06CDAE007BBA8C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C5114F81D06CFB7007BBA8C /* CommunityPage */ = {
+			isa = PBXGroup;
+			children = (
+				0C5114F91D06CFB7007BBA8C /* Controller */,
+				0C5114FA1D06CFB7007BBA8C /* Model */,
+				0C5114FB1D06CFB7007BBA8C /* View */,
+			);
+			path = CommunityPage;
+			sourceTree = "<group>";
+		};
+		0C5114F91D06CFB7007BBA8C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C81033E1D06EB0D00AAB250 /* CommunityVC.h */,
+				0C81033F1D06EB0D00AAB250 /* CommunityVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0C5114FA1D06CFB7007BBA8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C5114FB1D06CFB7007BBA8C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C5114FC1D06CFB7007BBA8C /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				0C5114FD1D06CFB7007BBA8C /* Controller */,
+				0C5114FE1D06CFB7007BBA8C /* Model */,
+				0C5114FF1D06CFB7007BBA8C /* View */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		0C5114FD1D06CFB7007BBA8C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C8103381D06EAE200AAB250 /* HomeVC.h */,
+				0C8103391D06EAE200AAB250 /* HomeVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0C5114FE1D06CFB7007BBA8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C5114FF1D06CFB7007BBA8C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C5115001D06CFB7007BBA8C /* MatchPage */ = {
+			isa = PBXGroup;
+			children = (
+				0C5115011D06CFB7007BBA8C /* Controller */,
+				0C5115021D06CFB7007BBA8C /* Model */,
+				0C5115031D06CFB7007BBA8C /* View */,
+			);
+			path = MatchPage;
+			sourceTree = "<group>";
+		};
+		0C5115011D06CFB7007BBA8C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3B3C81D071C37007E5D82 /* BaseVC */,
+				EFD3B3C91D071C37007E5D82 /* MatchVC */,
+				EFD3B3CC1D071C37007E5D82 /* SpecialVC */,
+				EF37FC671D07E37C004C5FED /* PresentVC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0C5115021D06CFB7007BBA8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C5115031D06CFB7007BBA8C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF37FC6F1D0806C7004C5FED /* MCNavigationBar */,
+				EF37FC6B1D07EC85004C5FED /* BaseTableCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C5115041D06CFB7007BBA8C /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				0C5115051D06CFB7007BBA8C /* Controller */,
+				0C5115061D06CFB7007BBA8C /* Model */,
+				0C5115071D06CFB7007BBA8C /* View */,
+			);
+			path = MyPage;
+			sourceTree = "<group>";
+		};
+		0C5115051D06CFB7007BBA8C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C8103441D06EB3100AAB250 /* MyVC.h */,
+				0C8103451D06EB3100AAB250 /* MyVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0C5115061D06CFB7007BBA8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C5115071D06CFB7007BBA8C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C5115081D06CFB7007BBA8C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0C8103311D06E8B900AAB250 /* CustomVC */,
+				0C5115091D06CFB7007BBA8C /* AppDelegate.h */,
+				0C51150A1D06CFB7007BBA8C /* AppDelegate.m */,
+				0C51150B1D06CFB7007BBA8C /* ViewController.h */,
+				0C51150C1D06CFB7007BBA8C /* ViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0C51150D1D06CFB7007BBA8C /* ShoppingCar */ = {
+			isa = PBXGroup;
+			children = (
+				0C51150E1D06CFB7007BBA8C /* Controller */,
+				0C51150F1D06CFB7007BBA8C /* Model */,
+				0C5115101D06CFB7007BBA8C /* View */,
+			);
+			path = ShoppingCar;
+			sourceTree = "<group>";
+		};
+		0C51150E1D06CFB7007BBA8C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C8103411D06EB2000AAB250 /* ShoppingCarVC.h */,
+				0C8103421D06EB2000AAB250 /* ShoppingCarVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0C51150F1D06CFB7007BBA8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C5115101D06CFB7007BBA8C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C8103311D06E8B900AAB250 /* CustomVC */ = {
+			isa = PBXGroup;
+			children = (
+				0C8103321D06E8EB00AAB250 /* NavigationController.h */,
+				0C8103331D06E8EB00AAB250 /* NavigationController.m */,
+				0C8103351D06E91600AAB250 /* TabBarController.h */,
+				0C8103361D06E91600AAB250 /* TabBarController.m */,
+			);
+			path = CustomVC;
+			sourceTree = "<group>";
+		};
+		810CC9BBD8DB2C60C90D459D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DAA178752F5D5C0CB50A828 /* libPods-StarWardrobe.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEEFA5307C3821D967900480 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF1002502E863A5C2368A13D /* Pods-StarWardrobe.debug.xcconfig */,
+				13BA3CD11225CBDD5D9B46EC /* Pods-StarWardrobe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF37FC671D07E37C004C5FED /* PresentVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PresentVC;
+			sourceTree = "<group>";
+		};
+		EF37FC6B1D07EC85004C5FED /* BaseTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				EF37FC6C1D07ECAA004C5FED /* BaseTableViewCell.h */,
+				EF37FC6D1D07ECAA004C5FED /* BaseTableViewCell.m */,
+			);
+			path = BaseTableCell;
+			sourceTree = "<group>";
+		};
+		EF37FC6F1D0806C7004C5FED /* MCNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				EF37FC701D0806C7004C5FED /* MCNavigationBar.h */,
+				EF37FC711D0806C7004C5FED /* MCNavigationBar.m */,
+			);
+			path = MCNavigationBar;
+			sourceTree = "<group>";
+		};
+		EFD3B3C81D071C37007E5D82 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				EF37FC681D07E3F0004C5FED /* BaseViewController.h */,
+				EF37FC691D07E3F0004C5FED /* BaseViewController.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		EFD3B3C91D071C37007E5D82 /* MatchVC */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3B3CA1D071C37007E5D82 /* MatchVC.h */,
+				EFD3B3CB1D071C37007E5D82 /* MatchVC.m */,
+			);
+			path = MatchVC;
+			sourceTree = "<group>";
+		};
+		EFD3B3CC1D071C37007E5D82 /* SpecialVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SpecialVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C5114DD1D06CDAE007BBA8C /* StarWardrobe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C5114F51D06CDAE007BBA8C /* Build configuration list for PBXNativeTarget "StarWardrobe" */;
+			buildPhases = (
+				9596302F4B5E8A35AA9179D5 /* 📦 Check Pods Manifest.lock */,
+				0C5114DA1D06CDAE007BBA8C /* Sources */,
+				0C5114DB1D06CDAE007BBA8C /* Frameworks */,
+				0C5114DC1D06CDAE007BBA8C /* Resources */,
+				25C3053A6C07A8219D62B655 /* 📦 Embed Pods Frameworks */,
+				238CA19CF423FB783CE6DD5C /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarWardrobe;
+			productName = StarWardrobe;
+			productReference = 0C5114DE1D06CDAE007BBA8C /* StarWardrobe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C5114D61D06CDAE007BBA8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CYY;
+				TargetAttributes = {
+					0C5114DD1D06CDAE007BBA8C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0C5114D91D06CDAE007BBA8C /* Build configuration list for PBXProject "StarWardrobe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C5114D51D06CDAE007BBA8C;
+			productRefGroup = 0C5114DF1D06CDAE007BBA8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C5114DD1D06CDAE007BBA8C /* StarWardrobe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C5114DC1D06CDAE007BBA8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C5114F11D06CDAE007BBA8C /* LaunchScreen.storyboard in Resources */,
+				0C5114EE1D06CDAE007BBA8C /* Assets.xcassets in Resources */,
+				0C5114EC1D06CDAE007BBA8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		238CA19CF423FB783CE6DD5C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarWardrobe/Pods-StarWardrobe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25C3053A6C07A8219D62B655 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarWardrobe/Pods-StarWardrobe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9596302F4B5E8A35AA9179D5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C5114DA1D06CDAE007BBA8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8103461D06EB3100AAB250 /* MyVC.m in Sources */,
+				EF37FC6A1D07E3F0004C5FED /* BaseViewController.m in Sources */,
+				0C5115121D06CFB7007BBA8C /* ViewController.m in Sources */,
+				EFD3B3CD1D071C37007E5D82 /* MatchVC.m in Sources */,
+				0C8103341D06E8EB00AAB250 /* NavigationController.m in Sources */,
+				0C8103371D06E91600AAB250 /* TabBarController.m in Sources */,
+				EF37FC721D0806C7004C5FED /* MCNavigationBar.m in Sources */,
+				0C81033A1D06EAE200AAB250 /* HomeVC.m in Sources */,
+				EF37FC6E1D07ECAA004C5FED /* BaseTableViewCell.m in Sources */,
+				0C8103431D06EB2000AAB250 /* ShoppingCarVC.m in Sources */,
+				0C5115111D06CFB7007BBA8C /* AppDelegate.m in Sources */,
+				0C8103401D06EB0D00AAB250 /* CommunityVC.m in Sources */,
+				0C5114E31D06CDAE007BBA8C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0C5114EA1D06CDAE007BBA8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C5114EB1D06CDAE007BBA8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C5114EF1D06CDAE007BBA8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C5114F01D06CDAE007BBA8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C5114F31D06CDAE007BBA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C5114F41D06CDAE007BBA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C5114F61D06CDAE007BBA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF1002502E863A5C2368A13D /* Pods-StarWardrobe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${SRCROOT}/StarWardrobe/HeaderFile.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = StarWardrobe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.it0506.StarWardrobe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		0C5114F71D06CDAE007BBA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13BA3CD11225CBDD5D9B46EC /* Pods-StarWardrobe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${SRCROOT}/StarWardrobe/HeaderFile.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = StarWardrobe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.it0506.StarWardrobe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C5114D91D06CDAE007BBA8C /* Build configuration list for PBXProject "StarWardrobe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C5114F31D06CDAE007BBA8C /* Debug */,
+				0C5114F41D06CDAE007BBA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C5114F51D06CDAE007BBA8C /* Build configuration list for PBXNativeTarget "StarWardrobe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C5114F61D06CDAE007BBA8C /* Debug */,
+				0C5114F71D06CDAE007BBA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C5114D61D06CDAE007BBA8C /* Project object */;
+}
